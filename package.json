@@ -1,0 +1,28 @@
+{
+  "name": "troj94-goit-nodejs-hw-01",
+  "version": "1.0.0",
+  "description": "https://github.com/goitacademy/nodejs-homework/blob/master/homework-01/README.md",
+  "main": "index.js",
+  "dependencies": {
+    "uuid": "^8.3.2",
+    "yargs": "^17.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js localhost 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Troj94/goit-nodejs-hw-01.git"
+  },
+  "author": "troj94@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Troj94/goit-nodejs-hw-01/issues"
+  },
+  "homepage": "https://github.com/Troj94/goit-nodejs-hw-01#readme"
+}
